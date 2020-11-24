@@ -9,7 +9,7 @@ export const TimeSchedule = async () => {
       "/30* * * * * *",
       async (req: any, res: any, _next: any) => {
         console.log("call first");
-        return await userControlller.getUsers(req, res, _next);
+        // return await userControlller.getUsers(req, res, _next);
 
         //   const options = {
         //     method: "get",

@@ -1,0 +1,34 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 5
+    },
+    "auditLog": "log\\.15ddc2c40db23e903f99a7d245b4e25f2f5a94d2-audit.json",
+    "files": [
+        {
+            "date": 1606146831183,
+            "name": "log\\combine-2020-11-23-21-scheduler.log.1",
+            "hash": "e6ed31f31105e9f69d6e2946dc986415"
+        },
+        {
+            "date": 1606146920578,
+            "name": "log\\combine-2020-11-23-21-scheduler.log.2",
+            "hash": "b04046af026823030ada836704c0f27d"
+        },
+        {
+            "date": 1606146928616,
+            "name": "log\\combine-2020-11-23-21-scheduler.log.3",
+            "hash": "1ad61199d912d07a963de8f5edf9b067"
+        },
+        {
+            "date": 1606146935962,
+            "name": "log\\combine-2020-11-23-21-scheduler.log.4",
+            "hash": "209b7e47bbc5c99d7ec3c6db93fdc680"
+        },
+        {
+            "date": 1606146947163,
+            "name": "log\\combine-2020-11-23-21-scheduler.log.5",
+            "hash": "39aeabcbae5c1a3fe937a0b58866bae4"
+        }
+    ]
+}
