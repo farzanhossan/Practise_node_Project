@@ -12,7 +12,7 @@ export const commonInfo = () => {
     maxSize: '1k',
     maxFiles: '5',
     level: 'custom',
-    levelOnly: false,
+    levelOnly: true,
     handleExceptions: true,
     humanReadableUnhandledException: true,
   };
@@ -48,12 +48,14 @@ export class Winston {
   private __errorTransport() {
     const common = commonInfo();
     common.filename = `log/error-%DATE%-error.log`;
+    common.levelOnly = true;
     common.level = 'error';
     return new (transports as any).DailyRotateFile(common);
   }
   private __combineTransport() {
     const common = commonInfo();
     common.filename = `log/combine-%DATE%-scheduler.log`;
+    common.levelOnly = true;
     common.level = 'info';
     return new (transports as any).DailyRotateFile(common);
   }

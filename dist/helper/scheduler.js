@@ -16,7 +16,7 @@ exports.TimeSchedule = () => __awaiter(void 0, void 0, void 0, function* () {
         const userControlller = new userControlller_1.UserController();
         return schedule.scheduleJob("/30* * * * * *", (req, res, _next) => __awaiter(void 0, void 0, void 0, function* () {
             console.log("call first");
-            return yield userControlller.getUsers(req, res, _next);
+            // return await userControlller.getUsers(req, res, _next);
             //   const options = {
             //     method: "get",
             //     uri: "http://127.0.0.1:4001/api/v1/users/hasMany"

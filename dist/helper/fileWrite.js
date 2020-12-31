@@ -41,14 +41,14 @@ exports.usingFs = () => __awaiter(void 0, void 0, void 0, function* () {
             throw error;
     }
 });
-exports.usingXLSX = () => __awaiter(void 0, void 0, void 0, function* () {
+exports.usingXLSX = (iteration) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const XLSX = require('xlsx');
         var data = {
             table: [],
         };
         let number = '01700000000';
-        for (let i = 1; i <= 100; i++) {
+        for (let i = 1; i <= iteration; i++) {
             console.log(i);
             var obj = {
                 number: `${Number(number) + Number(i)}`,
@@ -58,7 +58,7 @@ exports.usingXLSX = () => __awaiter(void 0, void 0, void 0, function* () {
                 gender: 'Male',
                 email: `shaikat${i}@gmail.com`,
                 dob: '1995-12-01',
-                age: '25',
+                customFields: {},
             };
             data.table.push(obj);
         }
@@ -70,7 +70,7 @@ exports.usingXLSX = () => __awaiter(void 0, void 0, void 0, function* () {
         var wb = XLSX.utils.book_new();
         XLSX.utils.book_append_sheet(wb, ws, 'Contact');
         /* generate an XLSX file */
-        XLSX.writeFile(wb, '100.xlsx');
+        XLSX.writeFile(wb, `${iteration}.xlsx`);
     }
     catch (error) {
         if (error)
