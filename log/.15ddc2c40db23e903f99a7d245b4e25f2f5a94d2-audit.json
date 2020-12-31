@@ -3,12 +3,38 @@
         "days": false,
         "amount": 5
     },
-    "auditLog": "log/.15ddc2c40db23e903f99a7d245b4e25f2f5a94d2-audit.json",
+    "auditLog": "log\\.15ddc2c40db23e903f99a7d245b4e25f2f5a94d2-audit.json",
     "files": [
         {
+<<<<<<< HEAD
             "date": 1606281804817,
             "name": "log/combine-2020-11-25-11-scheduler.log",
             "hash": "406c21a48182dadfd913e1416b43a1ae"
+=======
+            "date": 1606327406166,
+            "name": "log\\combine-2020-11-26-00-scheduler.log.5",
+            "hash": "6dfefa24a4845a428262a8140ceeab31"
+        },
+        {
+            "date": 1606327437924,
+            "name": "log\\combine-2020-11-26-00-scheduler.log",
+            "hash": "57202d151817d1b559f0056479f1a0dd"
+        },
+        {
+            "date": 1606327892035,
+            "name": "log\\combine-2020-11-26-00-scheduler.log.1",
+            "hash": "60c7da9568ff3f42c8e134572909e450"
+        },
+        {
+            "date": 1606327903371,
+            "name": "log\\combine-2020-11-26-00-scheduler.log.2",
+            "hash": "d0a57feb5ed93b786714bab7ddde4c04"
+        },
+        {
+            "date": 1606329217381,
+            "name": "log\\combine-2020-11-26-00-scheduler.log.3",
+            "hash": "313edb6ca27d1758fd3cba03ee3bb2cc"
+>>>>>>> 5a80a8c4cfeffd8324f09b57d05417c78e51afb0
         }
     ]
 }

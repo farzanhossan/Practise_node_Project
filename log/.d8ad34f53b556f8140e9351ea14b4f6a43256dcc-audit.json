@@ -3,12 +3,38 @@
         "days": false,
         "amount": 5
     },
-    "auditLog": "log/.d8ad34f53b556f8140e9351ea14b4f6a43256dcc-audit.json",
+    "auditLog": "log\\.d8ad34f53b556f8140e9351ea14b4f6a43256dcc-audit.json",
     "files": [
         {
+<<<<<<< HEAD
             "date": 1606281804817,
             "name": "log/error-2020-11-25-11-error.log",
             "hash": "5f4290f792e0ee164c73bb545164255b"
+=======
+            "date": 1606327406161,
+            "name": "log\\error-2020-11-26-00-error.log.5",
+            "hash": "decc46887567ad31527228c1bff8b98c"
+        },
+        {
+            "date": 1606327437917,
+            "name": "log\\error-2020-11-26-00-error.log",
+            "hash": "510b89219a8b386d0b7a849bd3254dee"
+        },
+        {
+            "date": 1606327892029,
+            "name": "log\\error-2020-11-26-00-error.log.1",
+            "hash": "4607ef51d5247ec8dbad1a4372d50c3b"
+        },
+        {
+            "date": 1606327903366,
+            "name": "log\\error-2020-11-26-00-error.log.2",
+            "hash": "37893ce3ffc3ff107eafa7f5c6e0c060"
+        },
+        {
+            "date": 1606329217374,
+            "name": "log\\error-2020-11-26-00-error.log.3",
+            "hash": "901cc558b6620d26529ce6ba9027ecb5"
+>>>>>>> 5a80a8c4cfeffd8324f09b57d05417c78e51afb0
         }
     ]
 }
